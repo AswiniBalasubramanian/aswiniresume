@@ -1,0 +1,193 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  nav ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 2.5em; /* (px,em,%),pt,cm */
+    color: #eff3c6;
+  }
+  nav ul {
+    float: right;
+  }
+  nav {
+    width: 100%;
+    height: 50px;
+    background-color: #00303f;
+    position: fixed;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  section {
+    background-color: #4cbbb9;
+  }
+  .home {
+    background-color: #cdac81;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    font-size: 48px;
+    color: #00303f;
+    display: table;
+    height: 100vh;
+    width: 100%;
+      
+  }
+  .home h3{
+    font-size: 20px;
+  }
+  .inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .home .inner img {
+    border-radius: 100%;
+    width: 250px;
+    height: 100px auto;
+  }
+  .home1{
+      text-align: center;
+      background:#ffffff;
+      color:black;
+      width: 100%;
+      height: 50px ;
+      font-family: 'Redressed', cursive;
+  
+  }
+  .about {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg");
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .about .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+  }
+  .about .inner h1 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .about .inner p {
+    font-size: 28px;
+    line-height: 50px;
+    color: #fff;
+  }
+  .education {
+    background-color: #fff;
+    display: table;
+    height: 100vh;
+    width: 100%;
+  }
+  .education .inner {
+    padding: 50px;
+  }
+  .education h1{
+      font-size: 30px;
+  }
+  .education h2{
+      font-size: 20px;
+  }
+  .hobbies h1,
+  .skills h1,
+  .contact h1 {
+    font-size: 42px;
+  }
+  .education .inner div,
+  .hobbies .inner div,
+  .skills .inner div {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+  }
+  .education .inner div p,
+  .hobbies .inner div p,
+  .skills .inner div li,
+  .contact .inner p {
+    font-size: 26px;
+  }
+  .education .inner div img,
+  .hobbies .inner div img {
+    width: 100px;
+    height: auto;
+  }
+  .hobbies{
+       background-color: #4cbbb9;
+  }
+  .hobbies,
+  .skills,
+  .contact {
+    display: table;
+    height: 100vh;
+    width: 100%;
+  }
+  .hobbies .inner {
+    padding: 50px;
+  }
+  .skills {
+    background-image: url("https://blog.bannersnack.com/wp-content/uploads/2016/05/Banner-Ad-Design-Examples-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .skills .inner {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    color: #fff;
+  }
+  .skills .inner div ul li {
+    list-style-type: none;
+  }
+  .skills .inner div li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact {
+    background-image: url("https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png");
+     background-color: rgba(0, 0, 0, 0.2); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact .inner {
+    text-align: center;
+      color: azure;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    nav {
+      height: 75px;
+    }
+    .home .inner img {
+      padding-top: 100px;
+    }
+    .about {
+      background-color: burlywood;
+    }
+    .about .inner p {
+      font-size: 18px;
+      text-align: justify;
+    }
+    .education .inner div,
+    .hobbies .inner div,
+    .skills .inner div {
+      width: 100%;
+    }
+    .hobbies .inner div {
+      border-bottom: 2px solid #d3d3d3;
+    }
+      .contact .inner p{
+          font-size: 20px;
+      }
+  }
+  
+  
